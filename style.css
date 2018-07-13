@@ -14,14 +14,18 @@ html, body
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url('welcomebtn.png');
+	background: url('Background.png');
 	display: table;
 	top: 0;
-	background-size: cover;
+	background-size: 100vw auto;
 }
 
 .intro .inner
 {
+	background: url('NTFwelcome.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 45vh;
 	display: table-cell;
 	vertical-align: middle;
 	position: relative;
