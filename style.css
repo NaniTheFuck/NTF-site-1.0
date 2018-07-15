@@ -22,10 +22,11 @@ html, body
 
 .intro .inner
 {
-	background: url('NTFwelcome.png');
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: auto 45vh;
+	//background: url('NTFwelcome.png');
+	//background-repeat: no-repeat;
+	//background-position: top;
+	//background-size: auto 45vh;
+	//background-size: 45vw auto;
 	display: table-cell;
 	vertical-align: middle;
 	position: relative;
