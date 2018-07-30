@@ -18,10 +18,10 @@ html, body
 	display: block;
 	background-size: 100vw 100vh;
 	text-align:center;
-	
 }
 
-.intro .inner{
+.intro .inner
+{
 	position: absolute;
     top: 50%;
     left: 50%;
