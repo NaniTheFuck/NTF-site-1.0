@@ -20,6 +20,15 @@
 				<a href="Killerbullet75.html">KillerBullet75</a>
 				<a href="BobJello.html">BobJello</a>
 				<a href="Nycto.html">Nycto</a>
+<<<<<<< HEAD
+<<<<<<< HEAD
+				<!--<a href="Onadi.html">Onadi</a>-->
+=======
+				<a href="Onadi.html">Onadi</a>
+>>>>>>> b314966f6f6c389ed4527d928499e78e396e847a
+=======
+				<a href="Onadi.html">Onadi</a>
+>>>>>>> b314966f6f6c389ed4527d928499e78e396e847a
 			</div>
 		</div>
 		<li><a class="btn" href="About Us.html">About Us</a></li>
@@ -29,29 +38,59 @@
 
 <section class="body">
 	<div class="right_panel">
-		<a href="http://twitch.tv/bobjeiio" target="_blank"><img src="http://streambadge.com/twitch/dark/bobjeiio.png" width="100%" height="8%" alt="bobjeiio's Streambadge"></a>
-		<a class="twitter-timeline" data-theme="light" href="https://twitter.com/MathiasMarmaduk?ref_src=twsrc%5Etfw" height="50%">Tweets by MathiasMarmaduk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div style="height:15vh;position:relative;">
+			<a href="http://twitch.tv/bobjeiio" target="_blank">
+				<img src="socials/twitchbackground.png" alt="twitch background" style="width:100%;height:15vh;position:absolute;">
+				<img src="socials/twitch.png" alt="twitch pic" style="max-width:70%;max-height:80%;position:absolute;top:50%;left:50%;transform:translateX(-50%)translateY(-50%);-webkit-transform:translateX(-50%)translateY(-50%);;-webkit-filter:drop-shadow(0 0 5px white);filter:drop-shadow(0 0 5px white)">
+			</a>
+		</div>
+		<div style="height:15vh;position:relative;">
+			<a href="https://www.snapchat.com/add/dasfdsa" target="_blank">
+				<img src="socials/snapbackground.png" alt="patreon background" style="width:100%;height:15vh;position:absolute;">
+				<img src="socials/snap.png" alt="patreon pic" style="max-width:70%;max-height:80%;position:absolute;top:50%;left:50%;transform:translateX(-50%)translateY(-50%);-webkit-transform:translateX(-50%)translateY(-50%);;-webkit-filter:drop-shadow(0 0 10px black);filter:drop-shadow(0 0 10px black)">
+			</a>
+		</div>
+		<a class="twitter-timeline" data-theme="light" href="https://twitter.com/MathiasMarmaduk?ref_src=twsrc%5Etfw" height="70%">Tweets by MathiasMarmaduk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>
-	<div class="inner">
-		<p style="text-align:center;"><img src="ProfPics/MatthewProfPic.png" alt="Matthew Profile Pic" style="width:30%;">
-		<p>
-		Links/Socials:
-		</p>
-		<ul style="list-style-type:none;">
-			<li>Twitch: <a href="https://www.twitch.tv/bobjeiio" target="_blank">BobJello</a></li>
-			<li>Twitter: <a href="https://twitter.com/MathiasMarmaduk" target="_blank">BobJello</a></li>
-			<li>Snapchat: dasfdsa</li>
-		</ul>
-		<p>
-		Hey guys my name is Matt. I'm currently in college and going for that tech management major. 
-		I don't currently have a job so I have a lot of free time to stream a lot of the games I like to play. 
-		I currently play stuff like League of Legends, Slay the Spire, Overwatch. Along with those I also speedrun Super Mario Sunshine. 
-		I like to stream a variety of things but I would like to keep those four games as something I play somewhat consistently. 
-		I don't have an engraved schedule for when I stream but I try to stream at least 3 or 4 times a week. 
-		Other than just playing games I like to watch YouTube and anime 
-		(<a href="https://myanimelist.net/animelist/Bobjello" target="_blank">AnimeList</a>). 
-		I'm a pretty chill dude so feel free to check out my stream and say hey!
-		</p>
+	
+	<div class="profinner">
+		<div class="profcontent">
+			<div style="padding: 1em 2em;">
+				<p style="text-align:center;"><img src="ProfPics/MatthewProfPic.png" alt="Matthew Profile Pic" style="width:30%;">
+				<p>
+				Hey guys my name is Matt. I'm currently in college and going for that tech management major. 
+				I don't currently have a job so I have a lot of free time to stream a lot of the games I like to play. 
+				I currently play stuff like League of Legends, Slay the Spire, Overwatch. Along with those I also speedrun Super Mario Sunshine. 
+				I like to stream a variety of things but I would like to keep those four games as something I play somewhat consistently. 
+				I don't have an engraved schedule for when I stream but I try to stream at least 3 or 4 times a week. 
+				Other than just playing games I like to watch YouTube and anime 
+				(<a href="https://myanimelist.net/animelist/Bobjello" target="_blank">AnimeList</a>). 
+				I'm a pretty chill dude so feel free to check out my stream and say hey!
+				</p>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="profinner">
+		<div class="newcontent">
+			<p style="text-align:center;font-weight:bold;font-size:150%;font-family:arial;">
+			<a href="http://twitch.tv/bobjeiio" target="blank" style="text-decoration:none;color:black;">Twitch</a>
+			</p>
+		</div>
+		<div class="newcontent" style="height:52vh;text-align:center;">
+			<div id="twitch-embed" style="position:relative;height:100%"></div>
+			<script src="https://embed.twitch.tv/embed/v1.js"></script>
+			<script type="text/javascript">
+				new Twitch.Embed("twitch-embed", {
+					width: "95%",
+					height: "95%",
+					channel: "bobjeiio",
+					theme: "dark"
+				});
+				var player = new Twitch.Player("twitch-embed", options);
+				player.setMuted(false);
+			</script>
+		</div>
 	</div>
 </section>
 

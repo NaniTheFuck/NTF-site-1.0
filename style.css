@@ -45,18 +45,6 @@ html, body
 	text-decoration: none;
 }
 
-.body .inner
-{
-	background: url('WhtBackground.png');
-	background-size: 100%;
-	display: block;
-	vertical-align: top;
-	width: auto;
-	height: auto;
-	padding: 1em 2em;
-	margin: 0 30% 0 10%;
-}
-
 div.right_panel
 {
 	background: url('WhtBackground.png');
@@ -69,7 +57,29 @@ div.right_panel
 	
 }
 
+.body .inner
+{
+	background: url('WhtBackground.png');
+	background-size: 100%;
+	display: block;
+	vertical-align: top;
+	width: auto;
+	height: auto;
+	padding: 1em 2em;
+	margin: 0 30% 0 10%;
+}
+
 .body .homeinner
+{
+	display: block;
+	vertical-align: top;
+	width: 60vw;
+	height: auto;
+	padding: 1em 2em;
+	margin: 0 30% 0 10%;
+}
+
+.body .profinner
 {
 	display: block;
 	vertical-align: top;
@@ -101,6 +111,15 @@ div.news
 	float: right;
 	overflow-y: auto;
 	overflow-x: none;
+}
+
+div.profcontent
+{
+	background: url('WhtBackground.png');
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+	height: auto;
 }
 
 div.newcontent
@@ -213,7 +232,7 @@ div.newcontent a:hover img
 {
 	position: absolute;
 	top: 50%;
-	left: 50%
+	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
